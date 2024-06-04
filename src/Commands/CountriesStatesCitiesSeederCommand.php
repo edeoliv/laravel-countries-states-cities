@@ -1,8 +1,8 @@
 <?php
 
-namespace Altwaireb\CountriesStatesCities\Commands;
+namespace Edeoliv\CountriesStatesCities\Commands;
 
-use Altwaireb\CountriesStatesCities\CountriesStatesCities;
+use Edeoliv\CountriesStatesCities\CountriesStatesCities;
 use Illuminate\Console\Command;
 
 class CountriesStatesCitiesSeederCommand extends Command

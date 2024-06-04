@@ -50,7 +50,7 @@ Common attributes:
 You can install the package via composer:
 
 ```bash
-composer require altwaireb/laravel-countries-states-cities
+composer require edeoliv/laravel-countries-states-cities
 ```
 
 ## Usage

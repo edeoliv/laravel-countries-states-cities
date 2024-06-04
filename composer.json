@@ -1,5 +1,5 @@
 {
-    "name": "altwaireb/laravel-countries-states-cities",
+    "name": "edeoliv/laravel-countries-states-cities",
     "description": "Laravel Countries States Cities DB Migration & Seeder",
     "keywords": [
         "countries",
@@ -7,17 +7,17 @@
         "cities",
         "laravel"
     ],
-    "homepage": "https://github.com/altwaireb/laravel-countries-states-cities",
+    "homepage": "https://github.com/edeoliv/laravel-countries-states-cities.git",
     "license": "MIT",
     "authors": [
         {
-            "name": "Abdulmajeed Altwaireb",
-            "email": "altwaireb@gmail.com",
+            "name": "Elias Olivtradet",
+            "email": "deoliveira.elias.eus@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^8.3",
         "spatie/laravel-package-tools": "^1.14.0",
         "illuminate/contracts": "^11.0"
     },
@@ -36,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Altwaireb\\CountriesStatesCities\\": "src/",
-            "Altwaireb\\CountriesStatesCities\\Database\\Seeders\\": "database/seeders/"
+            "Edeoliv\\CountriesStatesCities\\": "src/",
+            "Edeoliv\\CountriesStatesCities\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Altwaireb\\CountriesStatesCities\\Tests\\": "tests/"
+            "Edeoliv\\CountriesStatesCities\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Altwaireb\\CountriesStatesCities\\CountriesStatesCitiesServiceProvider"
+                "Edeoliv\\CountriesStatesCities\\CountriesStatesCitiesServiceProvider"
             ],
             "aliases": {
-                "CountriesStatesCities": "Altwaireb\\CountriesStatesCities\\Facades\\CountriesStatesCities"
+                "CountriesStatesCities": "Edeoliv\\CountriesStatesCities\\Facades\\CountriesStatesCities"
             }
         }
     },

@@ -1,12 +1,12 @@
 <?php
 
-namespace Altwaireb\CountriesStatesCities\Database\Seeders;
+namespace Edeoliv\CountriesStatesCities\Database\Seeders;
 
-use Altwaireb\CountriesStatesCities\CountriesStatesCities;
-use Altwaireb\CountriesStatesCities\Exceptions\InvalidCodeException;
-use Altwaireb\CountriesStatesCities\Models\City;
-use Altwaireb\CountriesStatesCities\Models\Country;
-use Altwaireb\CountriesStatesCities\Models\State;
+use Edeoliv\CountriesStatesCities\CountriesStatesCities;
+use Edeoliv\CountriesStatesCities\Exceptions\InvalidCodeException;
+use Edeoliv\CountriesStatesCities\Models\City;
+use Edeoliv\CountriesStatesCities\Models\Country;
+use Edeoliv\CountriesStatesCities\Models\State;
 use Illuminate\Database\Seeder;
 
 class BaseCountriesStatesCitiesSeeder extends Seeder

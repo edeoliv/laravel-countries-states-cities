@@ -1,6 +1,6 @@
 <?php
 
-namespace Altwaireb\CountriesStatesCities\Exceptions;
+namespace Edeoliv\CountriesStatesCities\Exceptions;
 
 use Exception;
 

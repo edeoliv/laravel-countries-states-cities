@@ -1,8 +1,8 @@
 <?php
 
-namespace Altwaireb\CountriesStatesCities\Tests;
+namespace Edeoliv\CountriesStatesCities\Tests;
 
-use Altwaireb\CountriesStatesCities\CountriesStatesCitiesServiceProvider;
+use Edeoliv\CountriesStatesCities\CountriesStatesCitiesServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

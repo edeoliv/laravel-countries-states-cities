@@ -11,6 +11,6 @@ class CountriesStatesCitiesTableSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call('Altwaireb\CountriesStatesCities\Database\Seeders\BaseCountriesStatesCitiesSeeder');
+        $this->call('Edeoliv\CountriesStatesCities\Database\Seeders\BaseCountriesStatesCitiesSeeder');
     }
 }

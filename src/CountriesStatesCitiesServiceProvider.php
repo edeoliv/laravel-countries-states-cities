@@ -1,8 +1,8 @@
 <?php
 
-namespace Altwaireb\CountriesStatesCities;
+namespace Edeoliv\CountriesStatesCities;
 
-use Altwaireb\CountriesStatesCities\Commands\CountriesStatesCitiesSeederCommand;
+use Edeoliv\CountriesStatesCities\Commands\CountriesStatesCitiesSeederCommand;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -25,7 +25,7 @@ class CountriesStatesCitiesServiceProvider extends PackageServiceProvider
                     ->publish('seeders')
                     ->copyAndRegisterServiceProviderInApp()
                     ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('altwaireb/laravel-countries-states-cities');
+                    ->askToStarRepoOnGitHub('Edeoliv/laravel-countries-states-cities');
             });
     }
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Altwaireb\CountriesStatesCities;
+namespace Edeoliv\CountriesStatesCities;
 
-use Altwaireb\CountriesStatesCities\Exceptions\InvalidCodeException;
+use Edeoliv\CountriesStatesCities\Exceptions\InvalidCodeException;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;

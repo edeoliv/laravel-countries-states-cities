@@ -1,16 +1,16 @@
 <?php
 
-namespace Altwaireb\CountriesStatesCities\Facades;
+namespace Edeoliv\CountriesStatesCities\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Altwaireb\CountriesStatesCities\CountriesStatesCities
+ * @see \Edeoliv\CountriesStatesCities\CountriesStatesCities
  */
 class CountriesStatesCities extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Altwaireb\CountriesStatesCities\CountriesStatesCities::class;
+        return \Edeoliv\CountriesStatesCities\CountriesStatesCities::class;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Altwaireb\CountriesStatesCities\Models;
+namespace Edeoliv\CountriesStatesCities\Models;
 
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

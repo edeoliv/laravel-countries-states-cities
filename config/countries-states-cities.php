@@ -1,6 +1,6 @@
 <?php
 
-// config for Altwaireb/CountriesStatesCities
+// config for Edeoliv/CountriesStatesCities
 return [
     'countries' => [
         'activation' => [
