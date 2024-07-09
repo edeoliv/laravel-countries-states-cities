@@ -10,6 +10,7 @@ Countries States Cities Data for Laravel
 | City    | 148059          |
 
 
+
 ## Attributes
 
 Common attributes:
